@@ -19,6 +19,8 @@ class Bank_Account:
     def check_balance(self):
         return self.balance + self.deposite
 
+    
+
 
 account1 = Bank_Account("Ashwin",101,5000)
 account2 = Bank_Account("Rohan",102,10000)
@@ -31,6 +33,8 @@ account1.check_balance()
 
 print("-----Account 2-----")
 account2.display_details()
+
+
 
 
 
